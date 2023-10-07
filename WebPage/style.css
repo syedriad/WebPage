@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("finalback.jpg");
+    background-size: cover; 
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100vh;
+    /* width: 100px;  */
+    font-family: cursive;
+    
+
+
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:black; */
+    padding: 18px;
+    width: 100vw;
+}
+
+#navbar li {
+    display: inline-block;
+
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    color: white;
+    font-size: 22px;
+}
+#navbar li a:hover{
+    color: red;
+}
+button{
+    padding: 8px 25px 8px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-family: cursive;
+    background-color: red;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+}
+h2{
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.order{
+    margin: 200px 0px 100px 60px;
+}
+h3{
+    color: wheat;
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
